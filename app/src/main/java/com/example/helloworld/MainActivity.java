@@ -16,5 +16,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         count = 10;
         Log.d(TAG, "count:"+String.valueOf(count));
+        Log.d(TAG, "second count:"+String.valueOf(count));
+        Log.d(TAG, "third count:"+String.valueOf(count));
     }
 }
